@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="assets/lib/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/lib/mapboxgljs/mapbox-gl.css" rel="stylesheet" />
+    <link href="assets/lib/mapboxgljs/mapbox-gl-geocoder.css" rel="stylesheet" />
+    
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <title>Mapbox Map</title>
+</head>
+
+<body>
+
+    <div class="tools p-4 bg-white shadow rounded">
+        <div class="direction-services">
+            <h6 class="mb-3">Choose direction service:</h6>
+            <div class="direction-service-toggle mb-3">
+                <span id="mapbox" class="shadow-sm active">Mapbox</span>
+                <span id="graphhopper" class="shadow-sm">Graphhopper</span>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-sm btn-secondary route-start-btn">Start Point</button>
+                <button type="button" class="btn btn-sm btn-secondary route-end-btn">End Point</button>
+                <button type="button" class="btn btn-sm btn-secondary route-cancel-btn">Cancel</button>
+              </div>
+        </div>
+    </div>
+    <div id="map"></div>
+
+    <script src="assets/settings.js"></script>
+
+    <script src="assets/data/point.js"></script>
+    <script src="assets/lib/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/lib/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/lib/mapboxgljs/mapbox-gl.js"></script>
+    <script src="assets/lib/mapboxgljs/mapbox-gl-geocoder.min.js"></script>
+
+    <script src="assets/js/getRoute.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
