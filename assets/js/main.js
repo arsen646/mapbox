@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
+        style: 'mapbox://styles/adeelkhalil/ckkea5qqt042417ruetu1p4eq',
         center: [-97.29885, 35.40382],
         zoom: 8
     });
